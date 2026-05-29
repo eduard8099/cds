@@ -14,7 +14,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <th>Any de fundació</th>
 </tr>
 <xsl:for-each select="LLIGA/EQUIP">
-<xsl:sort select="NOM"/>
 <tr>
 <td><xsl:value-of select="NOM"/></td>
 <td><xsl:value-of select="ENTRENADOR"/></td>
